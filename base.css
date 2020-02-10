@@ -75,6 +75,7 @@ section {
 audio,
 video {
   display: block;
+  background-color: black;
 }
 
 /* Type */

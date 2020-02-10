@@ -52,6 +52,6 @@ viewFooter info =
 viewNavbar : Html msg
 viewNavbar =
     nav []
-        [ a [ href "#" ] [ text "The Beat Machine" ]
-        , a [ href "#" ] [ text "Gifsync" ]
+        [ a [ href "https://beatmachine.branchpanic.me/" ] [ text "The Beat Machine" ]
+        , a [ href "https://gifsync.branchpanic.me/" ] [ text "Gifsync" ]
         ]
