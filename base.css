@@ -95,11 +95,11 @@ h5,
 h6 {
   font-family: "Source Code Pro", monospace;
   font-weight: 800;
-  color: var(--text);
+  color: var(--headings);
 }
 
 .tagline {
-  color: var(--text);
+  color: var(--headings);
   font-weight: 500;
   user-select: none;
   font-size: 2rem;
@@ -108,11 +108,11 @@ h6 {
 
 label {
   user-select: none;
-  color: var(--text);
+  color: var(--headings);
 }
 
 .status {
-  color: var(--text);
+  color: var(--headings);
   text-align: center;
 }
 
@@ -191,4 +191,28 @@ button {
 input:disabled,
 button:disabled {
   opacity: 30%;
+}
+
+.audio-hint {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.render-button-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+video {
+  width: 100%;
+}
+
+@media (min-width: 550px) {
+  video {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
 }

@@ -5,7 +5,8 @@
   --background: #191412; /* Main page background color */
   --background-grid: #201f1a; /* Background grid line color */
 
-  --text: #f2f2fa; /* Primary text color */
+  --text: #aaaab2; /* Primary text color */
+  --headings: #f2f2fa;
   --disabled-text: #888; /* Disabled element text color */
 
   --accent: #fa840f; /* Primary accent color */
