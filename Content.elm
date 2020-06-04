@@ -54,4 +54,5 @@ viewNavbar =
     nav []
         [ a [ href "https://beatmachine.branchpanic.me/" ] [ text "The Beat Machine" ]
         , a [ href "https://gifsync.branchpanic.me/" ] [ text "Gifsync" ]
+        , a [ href "https://branchpanic.itch.io/vdcrpt" ] [ text "vdcrpt" ]
         ]
